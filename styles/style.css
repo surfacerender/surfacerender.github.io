@@ -16,7 +16,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 nav{
     width: 99%;
@@ -28,7 +27,7 @@ nav{
     align-items: center; 
     justify-content: space-between;
     position:fixed; 
-    top: 5px;
+    top: 3px;
 }
 nav div {
     display: flex;
@@ -48,6 +47,9 @@ nav div {
     align-items: center;
     justify-content: center;
 }
+#logo:hover{
+    scale: 1.1;
+}
 nav #navi {
     display: flex;
     margin-left: 20px;
@@ -57,25 +59,31 @@ nav #navi li {
     color: #fffff0;
     padding: 10px;
     margin: 5px;
-    width: 70px;
+    width: 100px;
     /* background-color: aqua; */
     border-radius: 20px;
     text-align: center;
 }
+
 nav #navi li a {
     width: 70px;
     padding: 0px;
     text-decoration: none;
     color: #fffff0;
 }
-nav #navi li a:hover > li {
-    background-color: aquamarine;
-} 
+
+nav #navi li a:hover {
+    color:aqua;
+}
+
 nav div div .fa{
     color: #fffff0;
     margin-left: 20px;
     font-size: 20px;
     cursor: pointer;
+}
+nav div div .fa:hover{
+    color:rgb(255, 136, 0);
 }
 .btn{
     border: none;
@@ -86,6 +94,10 @@ nav div div .fa{
 #sign{
     margin-right: 10px;
     cursor: pointer;
+    background-color: #fffff0;
+}
+#sign:hover{
+    background-color: aqua;
 }
 #Login{
     margin-right: 10px;
@@ -93,13 +105,22 @@ nav div div .fa{
     cursor: pointer;
     background-color: #17252A;
 }
+#Login:hover{
+    color: aqua;
+    background-color: #fffff011;
+}
 #cart{
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     cursor: pointer;
     background-color: #17252A;
-    width: 50px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
     margin-right: 20px;
+}
+#cart:hover{
+    background-color: #fffff011;
 }
 
 /*hero*/
@@ -117,7 +138,7 @@ nav div div .fa{
     background-image: url(/Images/heroimg.jpg);
     background-size: cover;
     height: 80%;
-    width: 95%;
+    width: 98%;
 }
 
 /* itemrow */
@@ -133,11 +154,15 @@ nav div div .fa{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1d1d1d;
+    background-color:#fffff01a;
     border-radius: 20px;
     height: 300px;
     width: 400px;
     margin: 7px;
+}
+.item:hover{
+    background-color: #1d1d1d;
+
 }
 .item div {
     display: flex;
@@ -168,6 +193,11 @@ nav div div .fa{
     width: 70px;
     padding: 5px;
     cursor: pointer;
+}
+#btnitm1:hover{
+    scale: 1.04;
+    width: 100px;
+    text-align: end;
 }
 
 /* assests show  */
@@ -241,7 +271,7 @@ footer {
     margin-bottom: 20px;
 }
 .linkdata{
-    color: white;
+    color:#fffff0;
     background-color:#1d1d1d;
     width: 60%;
     padding: 20px;
@@ -258,7 +288,8 @@ footer {
     align-items: center;
 }
 .datatable ul{
-    color: white;
+    color:#fffff0;
+
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -270,16 +301,19 @@ footer {
     padding: 5px;
 }
 .datatable ul li a {
-    color: white;
+    color: #fffff052;
     text-decoration: none;
     font-size: 12px;
+}
+.datatable ul li a:hover {
+    color:#fffff0;
 }
 .datatable .datahead a{
     font-size: 15px;
 }
 
 .social{
-    color: white;
+    color:#fffff0;
     background-color:#1d1d1d;
     height: 100px;
     width: 100%;
@@ -289,14 +323,24 @@ footer {
 }
 .social #copyright{
     font-size: 12px;
+    color: #fffff052;
 }
+.social #copyright:hover{
+    font-size: 12px;
+    color:#fffff0;
+}
+
 .social #terms ul{
     font-size: 12px;
     display: flex;
 }
 .social #terms ul li{
+    color: #fffff052;
     padding: 10px;
     list-style-type: none;
+}
+.social #terms ul li:hover{
+    color:#fffff0;
 }
 .socialmedia{
     display: flex;
