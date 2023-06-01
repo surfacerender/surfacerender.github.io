@@ -28,6 +28,7 @@ nav{
     justify-content: space-between;
     position:fixed; 
     top: 3px;
+    z-index: 2;
 }
 nav div {
     display: flex;
@@ -137,6 +138,7 @@ nav div div .fa:hover{
     /* background-color: #1d1d1d; */
     background-image: url(/Images/heroimg.jpg);
     background-size: cover;
+    background-position: center center;
     height: 80%;
     width: 98%;
 }
@@ -154,7 +156,7 @@ nav div div .fa:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#fffff01a;
+    background-color:#2d2d2d;
     border-radius: 20px;
     height: 300px;
     width: 400px;
@@ -180,7 +182,7 @@ nav div div .fa:hover{
     background-repeat: no-repeat;
     /* background-position: 15px , 30px; */
     background-position-x: 70px;
-    background-position-y: -70px;
+    background-position-y: -170px;
 
 }
 #item3{
@@ -202,7 +204,7 @@ nav div div .fa:hover{
 
 /* assests show  */
 .assetshow{
-    height: 550px;
+    height: 100%;
     width: 100%;
     background-color: #151515;
     display: flex;
@@ -212,25 +214,24 @@ nav div div .fa:hover{
     background-image: url(/Images/assetsshowimg.jpg);
     background-size: cover;
     background-position: center;
-    height: 360px;
+    height: 400px;
     width: 50%;
     border-radius: 20px;
     margin: 20px;
-
 }
-.assetshow div {
+.assetshow #show-text {
     color: white;
     padding: 30px;
     padding-top: 50px;
 }
-.assetshow div h1 {
+.assetshow #show-text h1 {
     font-size: 60px;
 }
-.assetshow div p {
+.assetshow #show-text p {
     font-size: 14px;
     padding-left: 10px;
 }
-.assetshow div .btn {
+.assetshow #show-text .btn {
     margin: 20px;
 }
 
@@ -289,7 +290,6 @@ footer {
 }
 .datatable ul{
     color:#fffff0;
-
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -350,9 +350,13 @@ footer {
 .socialicons{
     padding-bottom: 20px;
 }
+.socialicons a{
+    text-decoration: none;
+    color: #fffff0;
+}
 .socialicons i{
     padding: 10px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 

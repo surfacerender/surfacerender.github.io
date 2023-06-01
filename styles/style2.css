@@ -1,0 +1,111 @@
+@media screen and (max-width : 900px) {
+
+    /* nav  */
+nav #navi , #sign , #Login , #cart{
+    display: none;
+}
+#logo{
+    width: 108px;
+    height: 12px;
+}
+
+
+/* hero */
+.hero div{
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* itemrow */
+.itemrow{
+    flex-direction: column;
+    height: 100%;
+}
+.item{
+    width: 98%;
+    height: 250px;
+}
+.item div{
+    height: 70%;
+    width: 80%;
+}
+
+/* assets show */
+.assetshow{
+    flex-direction: column;
+    height: 600px;
+}
+#show{
+    background-size:cover;
+    background-position-x: -250px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 70px;
+    z-index: 0;
+}
+.assetshow #show-text {
+    height: 300px;
+    width: 80%;
+    color: white;
+    padding: 30px;
+    z-index: 1;
+    padding-top: 50px;
+    background-color:#1d1d1d57 ;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    bottom: -280px;
+    z-index: 0;
+    
+}
+.assetshow #show-text h1 {
+    width: 20px;
+    font-size: 40px;
+}
+.assetshow #show-text p {
+    font-size: 12px;
+}
+.assetshow #show-text .btn {
+    display: block;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+/* footer */
+#insidewall{
+    flex-direction: column;
+}
+.details{
+    width: 100%;
+}
+.linkdata{
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.datatable{
+    width: 98%;
+}
+.social{
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.social #terms ul{
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.social #terms ul li{
+    padding: 5px;
+}
+.socialmedia{
+    align-items: center;
+}
+
+
+
+}
