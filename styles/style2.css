@@ -1,8 +1,62 @@
 @media screen and (max-width : 900px) {
 
     /* nav  */
+
+    /*burber*/
+.burger{
+    display: flex;
+    margin: 10px;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 26px;
+    height: 30px;
+    width: 30px;
+}
+.heightnav{
+    height: 90%;
+}
+.sidebarnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 2px;
+    left: -900px;
+    background-color:#151515fd;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 100%;
+    width: 60%;
+    color: #fffff0;
+    z-index: 2;
+}
+.sidebarnavrtpos{
+    left: 0px;
+}
+
+.oologo{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-image: url(/Images/surfacerenderlogo.png);
+    background-size: cover;
+}
+.sidebarnav #logo , .sidebarnav #navi{
+    margin: 0px;
+}
+
+
+
+/* navigation  */
 nav #navi , #sign , #Login , #cart{
     display: none;
+}
+.sidebarnav #navi , .sidebarnav #sign , .sidebarnav #Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #logo{
     width: 108px;

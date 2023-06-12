@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="jpg" href="/Images/surfacerenderlogo.png">
@@ -13,13 +14,14 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <title>SURFACERENDER</title>
+
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/style2.css">
     <script src="https://kit.fontawesome.com/d304302302.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
+    <nav class="">
         <div>
             <a href="/index.html">
                 <div id="logo"></div>
@@ -37,6 +39,25 @@
             <button class="btn" id="Login">Login</button>
             <button class="btn" id="sign">Sign Up</button>
             <button class="btn" id="cart"><i class="fa fa-cart-arrow-down"></i></button>
+        </div>
+
+        <div class="burger">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="sidebarnav">
+            <div class="oologo"></div>
+            <div id="logo"></div>
+            <ul id="navi">
+                <li><a href="">Models</a></li>
+                <li><a href="">Textures</a></li>
+                <li><a href="">Edits</a></li>
+            </ul>
+
+            <div>
+                <button class="btn" id="Login">Login</button>
+                <button class="btn" id="sign">Sign Up</button>
+                <button class="btn" id="cart"><i class="fa fa-cart-arrow-down"></i></button>
+            </div>
         </div>
     </nav>
 
@@ -101,7 +122,8 @@
                     <ul>
                         <li class="datahead">Software Links</li>
                         <li><a href="https://www.blender.org/download/" target="_blank">Blender</a></li>
-                        <li><a href="https://www.adobe.com/in/products/photoshop.html?gclid=CjwKCAjwg-GjBhBnEiwAMUvNW8StI5zvtscy4FZqvbR5Uw7zVZMrdWrakcA8JOriKe_TI6sk4zoTVxoCCioQAvD_BwE&sdid=SGDJMMG3&mv=search&ef_id=CjwKCAjwg-GjBhBnEiwAMUvNW8StI5zvtscy4FZqvbR5Uw7zVZMrdWrakcA8JOriKe_TI6sk4zoTVxoCCioQAvD_BwE:G:s&s_kwcid=AL!3085!3!444587838671!e!!g!!photoshop%20download!221442788!17534777948" target="_blank">Photoshope</a></li>
+                        <li><a href="https://www.adobe.com/in/products/photoshop.html?gclid=CjwKCAjwg-GjBhBnEiwAMUvNW8StI5zvtscy4FZqvbR5Uw7zVZMrdWrakcA8JOriKe_TI6sk4zoTVxoCCioQAvD_BwE&sdid=SGDJMMG3&mv=search&ef_id=CjwKCAjwg-GjBhBnEiwAMUvNW8StI5zvtscy4FZqvbR5Uw7zVZMrdWrakcA8JOriKe_TI6sk4zoTVxoCCioQAvD_BwE:G:s&s_kwcid=AL!3085!3!444587838671!e!!g!!photoshop%20download!221442788!17534777948"
+                                target="_blank">Photoshope</a></li>
                     </ul>
                     <ul>
                         <li class="datahead">Account</li>
@@ -141,5 +163,9 @@
         </div>
     </footer>
 </body>
+
+
+<script src="/js/nav.js"></script>
+<script src="/js/pages.js"></script>
 
 </html>

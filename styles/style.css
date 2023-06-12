@@ -17,6 +17,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.burger , .sidebarnav {
+    display: none;
+}
 nav{
     width: 99%;
     height: 80px;
@@ -136,11 +139,13 @@ nav div div .fa:hover{
 .hero div{
     border-radius: 20px;
     /* background-color: #1d1d1d; */
-    background-image: url(/Images/heroimg.jpg);
+    background-image: url(/Images/heroimg3.png);
     background-size: cover;
     background-position: center center;
     height: 80%;
     width: 98%;
+    background-position-x: 0px;
+    background-position-y: -260px;
 }
 
 /* itemrow */
@@ -184,6 +189,13 @@ nav div div .fa:hover{
     background-position-x: 70px;
     background-position-y: -170px;
 
+}
+#item2{
+    background-image: url(/Images/assexts2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 190px;
+    background-position-y: -50px;
 }
 #item3{
     background-image: url(/Images/assests3r1.png);
