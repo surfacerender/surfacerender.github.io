@@ -139,13 +139,13 @@ nav div div .fa:hover{
 .hero div{
     border-radius: 20px;
     /* background-color: #1d1d1d; */
-    background-image: url(/Images/heroimg3.png);
+    background-image: url(/Images/heroimg5.jpg);
     background-size: cover;
     background-position: center center;
     height: 80%;
     width: 98%;
-    background-position-x: 0px;
-    background-position-y: -260px;
+    /* background-position-x: 0px; */
+    /* background-position-y: -260px; */
 }
 
 /* itemrow */
