@@ -25,9 +25,9 @@ var navigationbar = `<nav class="">
     <div class="oologo"></div>
     <div id="logo"></div>
     <ul id="navi">
-        <li><a href="">Models</a></li>
-        <li><a href="">Textures</a></li>
-        <li><a href="">Edits</a></li>
+    <li><a href="/Pages/models.html">Models</a></li>
+    <li><a href="/Pages/textures.html">Textures</a></li>
+    <li><a href="/Pages/edits.html">Edits</a></li>
     </ul>
 
     <div>
