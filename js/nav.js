@@ -4,7 +4,6 @@ sidebarnav = document.querySelector('.sidebarnav');
 
 
 burger.addEventListener('click',() => {
-    // nav.classList.toggle('heightnav');
     sidebarnav.classList.toggle('sidebarnavrtpos');
 });
 
